@@ -16,7 +16,7 @@ void populate_eoiphdr(int tid, void *dst) {
 void populate_eoip6hdr(int tid, void *dst) {
   union eoip_hdr *eoip6_hdr = (union eoip_hdr *) dst;
   eoip6_hdr->header_v = htons(EIPHEAD(tid));
-  eoip6_hdr->eoip6.head_p1 = BITSWAP(eoip6_hdr->eoip6.head_p1);
+  eoip6_hdr->eoip6.head_p1 = eoip6_hdr->eoip6.head_p1;
 }
 
 ///
