@@ -1,3 +1,5 @@
+Changed EoIPv6 header behavior
+
 eoip
 ---
 
