@@ -1,3 +1,8 @@
+# ATTENTION
+__This repository is not maintained.__
+__EtherIP implementations maintained: https://github.com/symysak/etherip__
+
+----
 Changed EoIPv6 header behavior
 
 eoip
